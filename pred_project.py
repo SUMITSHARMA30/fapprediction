@@ -353,7 +353,6 @@ if st.button("Predict FAP Success %"):
     if "FAP Success Per" in base.columns:
         base = base.drop(columns=["FAP Success Per"])
 
-    # match training preprocessing
     base_dummies = pd.get_dummies(base, drop_first=True)
     base_dummies = base_dummies.reindex(columns=X_all.columns, fill_value=0)
 
