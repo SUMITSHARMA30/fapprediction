@@ -252,7 +252,7 @@ def load_and_train():
         X, y, test_size=0.2, random_state=42
     )
 
-    # scaler + model
+  
     scaler = StandardScaler()
     X_train_s = scaler.fit_transform(X_train)
 
