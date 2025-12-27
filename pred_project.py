@@ -218,7 +218,7 @@ def load_and_train():
     df = df.dropna(axis=1, how="all")
     df = df.drop(columns=["RCA"], errors="ignore")
 
-    # numeric conversion
+ 
     num_cols = [
         "Total Pickup Assigned", "Pickup Done", "FAP",
         "FAP Success", "Pickup Canceled", "QC Failure",
