@@ -17,9 +17,7 @@ from sklearn.metrics import (
 
 sns.set(style="whitegrid")
 
-# ============================================
-# 1. LOAD CSV
-# ============================================
+
 
 CSV_FILE = r"C:\Users\Sumit\Downloads\project.csv"  # your file path
 df = pd.read_csv(CSV_FILE)
