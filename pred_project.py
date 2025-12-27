@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression
 
-# ---------- PAGE CONFIG ----------
+
 st.set_page_config(page_title="FAP Success Predictor", layout="centered")
 
 st.markdown("""
