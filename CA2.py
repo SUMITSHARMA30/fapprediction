@@ -25,9 +25,7 @@ df.columns = df.columns.str.strip()
 
 print("Original shape:", df.shape)
 
-# ============================================
-# 2. DROP EMPTY & USELESS DATA
-# ============================================
+
 
 TARGET = "FAP Success Per"
 
