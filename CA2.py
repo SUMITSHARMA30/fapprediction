@@ -35,7 +35,7 @@ df = df.dropna(subset=[TARGET])
 # Drop fully empty columns
 df = df.dropna(axis=1, how="all")
 
-# Drop RCA if exists
+
 df = df.drop(columns=["RCA"], errors="ignore")
 
 print("Shape after dropping empty rows:", df.shape)
