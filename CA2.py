@@ -60,9 +60,7 @@ if "Date" in df.columns:
     df["month"] = df["Date"].dt.month
     df = df.drop(columns=["Date"])
 
-# ============================================
-# 5. SAFE MISSING VALUE HANDLING
-# ============================================
+
 
 # Numeric → median
 for col in df.select_dtypes(include=["int64", "float64"]).columns:
