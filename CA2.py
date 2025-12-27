@@ -29,7 +29,7 @@ print("Original shape:", df.shape)
 
 TARGET = "FAP Success Per"
 
-# Keep only rows where target exists
+
 df = df.dropna(subset=[TARGET])
 
 # Drop fully empty columns
