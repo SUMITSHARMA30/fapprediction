@@ -52,9 +52,7 @@ for col in possible_numeric:
     if col in df.columns:
         df[col] = pd.to_numeric(df[col], errors="coerce")
 
-# ============================================
-# 4. DATE FEATURES (NO ROW DROP)
-# ============================================
+
 
 if "Date" in df.columns:
     df["Date"] = pd.to_datetime(df["Date"], dayfirst=True, errors="coerce")
