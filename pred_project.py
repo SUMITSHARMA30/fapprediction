@@ -214,7 +214,6 @@ def load_and_train():
     # keep only rows with target
     df = df.dropna(subset=["FAP Success Per"])
 
-    # drop fully empty columns and RCA
     df = df.dropna(axis=1, how="all")
     df = df.drop(columns=["RCA"], errors="ignore")
 
