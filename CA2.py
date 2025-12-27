@@ -40,9 +40,7 @@ df = df.drop(columns=["RCA"], errors="ignore")
 
 print("Shape after dropping empty rows:", df.shape)
 
-# ============================================
-# 3. CONVERT NUMERIC COLUMNS
-# ============================================
+
 
 possible_numeric = [
     "Total Pickup Assigned", "Pickup Done", "FAP",
