@@ -13,7 +13,7 @@ st.markdown("""
 
 /* ===== BACKGROUND (soft lime → teal) ===== */
 [data-testid="stAppViewContainer"] {
-    background: linear-gradient(
+    background:    # drop target if present linear-gradient(
         115deg,
         #e0ffb3 0%,
         #c4f2c3 35%,
