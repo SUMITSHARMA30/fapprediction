@@ -358,7 +358,7 @@ if st.button("Predict FAP Success %"):
     base_dummies = pd.get_dummies(base, drop_first=True)
     base_dummies = base_dummies.reindex(columns=X_all.columns, fill_value=0)
 
-    # scale and predict
+   
     base_scaled = scaler.transform(base_dummies)
     pred = model.predict(base_scaled)[0]
 
