@@ -195,9 +195,7 @@ footer {visibility: hidden;}
 
 
 
-# ================================
-# 1. PAGE CONFIG
-# ================================
+
 st.set_page_config(page_title="FAP Success Predictor", layout="centered")
 st.title("📦 FAP Success Percentage Predictor")
 st.write("Predict FAP Success % using pickup operations data.")
